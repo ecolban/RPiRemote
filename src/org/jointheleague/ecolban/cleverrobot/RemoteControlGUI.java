@@ -158,8 +158,8 @@ public class RemoteControlGUI implements Runnable, KeyListener, ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        int acceleration = 10;
-        int deceleration = 10;
+        int acceleration = 3;
+        int deceleration = 100;
         if (stopRobot) {
             speeds[0] = speeds[1] = 0;
             stopRobot = false;
